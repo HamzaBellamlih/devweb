@@ -1,0 +1,48 @@
+h1{
+    color: blue;
+    font-size: 50px;
+}
+p{
+    color: maroon;
+    font-size: 20px;
+}
+span{
+    color: yellow;
+    cursor: pointer;
+}
+h1:hover{
+    color: aqua;
+    cursor: grab;
+    font-weight: 100;
+}
+p:hover{
+    color: aqua;
+    cursor: pointer;
+    font-weight: 100;
+}
+span:hover{
+    color: chartreuse;
+    cursor: copy;
+    font-weight: 600;
+}
+img{
+    width: 300;
+    height: 300;
+    border-radius: 50%;
+    box-shadow: 2px,2px,2px,2px rgra:black,red,blue,goldenrod;
+}
+
+.divhome{
+    display: flex;
+    flex-direction: row;
+}
+
+.divprincipale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h2divhome{
+    margin-left: 4rem;
+}
